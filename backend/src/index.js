@@ -1,11 +1,10 @@
-
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import bookRoute from "./route/book.route.js"
-import userRoute from "./route/user.route.js"
-import Book from "./model/book.model.js";
+import bookRoute from "../route/book.route.js"
+import userRoute from "../route/user.route.js"
+import Book from "../model/book.model.js";
 
 
 const app = express();
